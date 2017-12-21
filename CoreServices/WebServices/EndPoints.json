@@ -1,0 +1,48 @@
+{
+    "Config": [
+               {
+               "name": "Service_EndPoints",
+               "api_key": "(none)",
+               "api_secret": "(none)",
+               "api_version": "2.0",
+               "services": [
+                            {
+                            "active_status": false,
+                            "base_url": "production-base-url",
+                            "headers": {
+                            "Content-type": "application/json"
+                            },
+                            "endpoints": [
+                                          {
+                                          "name": "login-user",
+                                          "uri": "/api/v1/users/login",
+                                          "method": "POST",
+                                          "status": true
+                                          },
+                                          {
+                                          "name": "login-user",
+                                          "uri": "/api/v1/users/login",
+                                          "method": "GET",
+                                          "status": true
+                                          }
+                                          ]
+                            },
+                            {
+                            "active_status": true,
+                            "base_url": "https://reqres.in",
+                            "headers": {
+                            "Content-type": "application/json"
+                            },
+                            "endpoints": [
+                                          {
+                                          "name": "create-user",
+                                          "uri": "/api/users",
+                                          "method": "POST",
+                                          "status": true
+                                          }
+                                          ]
+                            }
+                            ]
+               }
+               ]
+}
