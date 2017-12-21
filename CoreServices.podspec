@@ -20,7 +20,7 @@ Embed this as a local pod in project. Define the end points in Endpoints.json fi
 
   s.homepage        = "botfather.github.io"
 
-  s.author          = { "Tushar Mohan" => "tusharmohan@mindfiresolutions.com" }
+  s.author          = { "Tushar Mohan" => "mohan.tushar@outlook.com" }
 
   s.platform        = :ios, "9.0"
   s.source          = { :path => "." }
