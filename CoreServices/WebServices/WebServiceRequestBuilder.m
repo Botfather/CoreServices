@@ -1,6 +1,6 @@
 //
 //  WebServiceRequestBuilder.m
-//  WebServicesManager
+//  CoreServices
 //
 //  Created by Tushar Mohan on 24/11/17.
 //  Copyright © 2017 io.github.botfather. All rights reserved.
